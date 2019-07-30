@@ -49,10 +49,44 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Abstract\ICustomer.cs" />
+    <Compile Include="Repository\Abstract\IEmployee.cs" />
+    <Compile Include="Repository\Abstract\IGuitar.cs" />
+    <Compile Include="Repository\Abstract\IGuitarBrand.cs" />
+    <Compile Include="Repository\Abstract\IGuitarModel.cs" />
+    <Compile Include="Repository\Abstract\IGuitarType.cs" />
+    <Compile Include="Repository\Abstract\IOrder.cs" />
+    <Compile Include="Repository\Abstract\IOrderDetail.cs" />
+    <Compile Include="Repository\Abstract\IRepository.cs" />
+    <Compile Include="Repository\Abstract\IShipper.cs" />
+    <Compile Include="Repository\Abstract\ISupplier.cs" />
+    <Compile Include="Repository\Abstract\IUnitOfWork.cs" />
+    <Compile Include="Repository\Concrete\CustomerConcrete.cs" />
+    <Compile Include="Repository\Concrete\EFRepository.cs" />
+    <Compile Include="Repository\Concrete\EFUnitOfWork.cs" />
+    <Compile Include="Repository\Concrete\EmployeeConcrete.cs" />
+    <Compile Include="Repository\Concrete\GuitarBrandConcrete.cs" />
+    <Compile Include="Repository\Concrete\GuitarConcrete.cs" />
+    <Compile Include="Repository\Concrete\GuitarModelConcrete.cs" />
+    <Compile Include="Repository\Concrete\GuitarTypeConcrete.cs" />
+    <Compile Include="Repository\Concrete\OrderConcrete.cs" />
+    <Compile Include="Repository\Concrete\OrderDetailConcrete.cs" />
+    <Compile Include="Repository\Concrete\ShipperConcrete.cs" />
+    <Compile Include="Repository\Concrete\SupplierConcrete.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GuitarWorld.DAL\GuitarWorld.DAL.csproj">
+      <Project>{7E30AF4E-10E5-4D98-BF5E-D7337551EE0E}</Project>
+      <Name>GuitarWorld.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GuitarWorld.DATA\GuitarWorld.DATA.csproj">
+      <Project>{28476B57-C4B4-4EA7-B64B-8DCF8C183AFA}</Project>
+      <Name>GuitarWorld.DATA</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
