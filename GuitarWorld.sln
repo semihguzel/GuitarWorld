@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarWorld.UI", "GuitarWorld.UI\GuitarWorld.UI.csproj", "{6002114F-3C20-4CAA-BB31-A6A1360C04F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarWorld.DATA", "GuitarWorld.DATA\GuitarWorld.DATA.csproj", "{28476B57-C4B4-4EA7-B64B-8DCF8C183AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarWorld.DAL", "GuitarWorld.DAL\GuitarWorld.DAL.csproj", "{7E30AF4E-10E5-4D98-BF5E-D7337551EE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarWorld.BLL", "GuitarWorld.BLL\GuitarWorld.BLL.csproj", "{26ACF283-D276-420C-A5BE-E8C2674E3134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6002114F-3C20-4CAA-BB31-A6A1360C04F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6002114F-3C20-4CAA-BB31-A6A1360C04F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6002114F-3C20-4CAA-BB31-A6A1360C04F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6002114F-3C20-4CAA-BB31-A6A1360C04F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28476B57-C4B4-4EA7-B64B-8DCF8C183AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28476B57-C4B4-4EA7-B64B-8DCF8C183AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28476B57-C4B4-4EA7-B64B-8DCF8C183AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28476B57-C4B4-4EA7-B64B-8DCF8C183AFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E30AF4E-10E5-4D98-BF5E-D7337551EE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E30AF4E-10E5-4D98-BF5E-D7337551EE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E30AF4E-10E5-4D98-BF5E-D7337551EE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E30AF4E-10E5-4D98-BF5E-D7337551EE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26ACF283-D276-420C-A5BE-E8C2674E3134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26ACF283-D276-420C-A5BE-E8C2674E3134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26ACF283-D276-420C-A5BE-E8C2674E3134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26ACF283-D276-420C-A5BE-E8C2674E3134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C532A740-7DBE-440A-A8C2-D347F6DDD902}
+	EndGlobalSection
+EndGlobal
